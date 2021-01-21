@@ -1,0 +1,30 @@
+.skill-box {
+    display: inline-block;
+    box-sizing: border-box;
+    background: #183152;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: white;
+    margin: 5px;
+}
+
+.box-well {
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    background: #375D81;
+    vertical-align: middle;
+    border-radius: 3px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+@media screen and (max-width: 500px){
+    .skill-box {
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+    }
+}
